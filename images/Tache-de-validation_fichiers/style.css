@@ -1,0 +1,87 @@
+header{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #66b0b7;
+    text-decoration: none;
+}
+.chek{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 15%;
+}
+.nav{
+    display: flex;
+    gap: 10%;
+    width: 60%;
+    height: 8%;
+}
+.sect{
+    align-items: center;
+    width: 15%;
+}
+.user{
+    background-color: white;
+    border-radius: 70px;
+}
+.discov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66b0b768;
+    height: 300px;
+}
+.h2-discover{
+    color: white;
+}
+.search{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+}
+.webDesign-finance{
+    display: flex;
+    gap: 10%;
+    background-color: #157bd4;
+    padding: 10px;
+    height: 400px;
+}
+.webDesign{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: -5%;
+}
+.design-agenda{
+    display: flex;
+    justify-content: space-between;
+}
+.finance{
+    width: 60%;
+    height: 100%;
+    background-image: url(images/ord.jpeg);
+    color: white;
+    padding: 10px;
+    margin-top: -5%;
+}
+.finance-agenda{
+    display: flex;
+    justify-content: space-between;
+}
+.web-dasign-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3-finance{
+    background-color: chartreuse;
+    border-radius: 20px;
+    width: 4%;
+    height: 12%;
+}
