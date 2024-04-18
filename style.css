@@ -588,6 +588,8 @@ button{
     }
     .p-section{
         display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 1%;
         justify-content: center;
     }
@@ -683,7 +685,7 @@ button{
         background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
-        height: 200px;
+        height: 220px;
         margin-top: -9%;
         
     }
@@ -728,7 +730,7 @@ button{
         justify-content: space-around;
         background-color: #66b0b7;
         width: 100%;
-        height: 200px;
+        height: 220px;
         margin-top: -25%;
     }
     .horizontal2{
@@ -770,7 +772,7 @@ button{
         background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
-        height: 200px;
+        height: 220px;
         margin-top: -10%;
     }
     .horizontal3{
@@ -804,10 +806,11 @@ button{
     .section1-menu3{ 
         height: 500px;
         margin-top: 5%;
-        margin-top: 35%;
+        margin-top: 42%;
     }
     .div1{
         color: black;
+        margin: 2%;
     }
     .section1-menu3-imgText{
         display: flex;
