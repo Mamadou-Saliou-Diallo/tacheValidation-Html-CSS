@@ -632,15 +632,18 @@ button{
         text-align: center;
     }
     .section1-menu2{
-        background-image: url("images/digit.jpg");
+        background-image: url("images/devConserta.jpg");
         color: white;
         background-size: cover;
         height: 650px;
         padding: 10px;
-        margin-top: 7%;
     }
     .h2-section1-menu2{
         text-align: center;
+        margin-top: -12%;
+        font-weight: bold;
+        height: 5%;
+        background-color: #66b0b7;
     }
     .rond{
         display: flex;
@@ -676,19 +679,19 @@ button{
         margin-left: 4%;
     }.vert-horz{
         display: flex;
-        background-color: #157bd4;
+        background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
         height: 100%;
-        margin-top: -10%;
+        margin-top: -6%;
+        
     }
     .horizontal{
-         font-size: 15px;
+        font-size: 15px;
         width: 800;
         padding: 20px;
         margin-top: -10%;
     }
-    
     
     .rond2{
         display: flex;
@@ -721,8 +724,8 @@ button{
         margin-left: 4%;
     }.vert-horz2{
         display: flex;
-        background-color: #157bd4;
         justify-content: space-around;
+        background-color: #66b0b7;
         width: 100%;
         height: 180px;
         margin-top: -30%;
@@ -732,7 +735,6 @@ button{
        width: 800;
        padding: 20px;
     }
-    
     
     .rond{
         display: flex;
@@ -761,15 +763,14 @@ button{
         width: 0.5%;
         height: 80px;
         margin-top: -7%;
-        background-color: #66b0b7;
         margin-left: 4%;
     }.vert-horz3{
         display: flex;
-        background-color: #157bd4;
+        background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
         height: 180px;
-        margin-top: -100%;
+        margin-top: -10%;
     }
     .horizontal3{
         font-size: 15px;
@@ -781,16 +782,17 @@ button{
         display: flex;
         gap: 10%;
         justify-content: center;
+        margin-top: -14%;
     }
     .youtube{
-        text-align: center;
+        display: flex;
+        justify-content: center;
         color: white;
-        margin-top: 2%;
+        margin-top: 4%;
         text-decoration: none;
-        background-color: #66b0b7;
-        width: 7%;
-        height: 20px;
-        border-radius: 10px;
+        width: 23%;
+        height: 30px;
+        border-radius: 10px;    
     }
     .section1-menu3{ 
         height: 500px;
@@ -801,21 +803,20 @@ button{
         color: black;
     }
     .section1-menu3-imgText{
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
     }
     .question-frp{
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 150px;
         box-shadow: 5px 5px 10px 10px;
     }
     .text{
         display: flex;
-        width: 50%;
-        height: 100%;
         flex-direction: column;
-        padding: 20px;
+        width: 100%;
+        margin-left: -5%;
+        height: 100%;
         color: black;
     }
     .section1-menu3-imgText{
@@ -845,23 +846,25 @@ button{
         font-size: 30px;
     }
     .fin1-1-grille{
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        gap: 2%;
+        display: flex;
+        flex-direction: column;
     }
     .localisation{
         height: 230px;
-        padding: 10px;
+        width: 60%;
+        margin-left: -4%;
         margin-top: 2%;
     }
     
     .fin1-16head1{
         height: 300px;
         padding: 10px;
+        text-align: center;
     }
     .fin1-16head2{
         height: 300px;
         padding: 10px;
+        text-align: center;
     }
     .lig{
         background-color: #9ba3aa;
@@ -870,19 +873,41 @@ button{
     }
     .footer-fin{
         display: flex;
+        flex-direction: column;
         color: black;
         justify-content: space-between;
+    }
+    .chek-fin{
+        text-align: center;
+    }
+    .res{
+        display: flex;
+        justify-content: center;
+    }
+    .infos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .material-symbols-outlined{
         box-shadow: 10px 10px 10px 5px;
     }
-    .langue{
-        text-decoration: none;
-        background-color: #66b0b7;
+    .langues{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border-radius: 10px;
         text-align: center;
-        width: 7%;
+        width: 100%;
         height: 30px;
     }
+    .langue{
+        width: 30%;
+        height: 60px;
+        text-align: center;
+        background-color: #157bd4;
+    }
+    
+    
     
 }
