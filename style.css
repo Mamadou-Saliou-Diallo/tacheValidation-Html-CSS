@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 header{
     display: flex; 
     justify-content: space-around;
@@ -56,11 +59,12 @@ header{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 80%;
     border-radius: 20px;
     padding: 10px;
     margin-top: -5%;
+    margin-left: 5%;
 }
 .h3-design{
     background-color: rgb(157, 187, 127);
@@ -75,9 +79,12 @@ header{
     justify-content: space-between;
 }
 .finance{
-    width: 60%;
-    height: 100%;
-    background-image: url(images/ord.jpeg);
+    width: 40%;
+    height: 80%;
+    background-image: url(images/programation.jpg);
+    background-position: center;
+    font-weight: bold;
+    opacity: 0.5;
     color: white;
     padding: 10px;
     margin-top: -5%;
@@ -87,10 +94,12 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.web-dasign-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.web-dsn1{
+    text-align: center;
+}
+.web-dsn{
+    width: 40%;
+    height: 100px;
 }
 .h3-finance{
     background-color: chartreuse;
@@ -103,24 +112,24 @@ header{
 button{
     background-color: #66b0b7;
     border-radius: 20px;
-    width: 15%;
-    height: 10%;
-    margin-top: 10%;
+    width: 20%;
+    height: 15%;
+    margin-top: 6%;
 }
 .finance-footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 6%;
+    margin-top: 1%;
     font-size: 30px;
 }
 .social-finance{
     display: flex;
     gap: 40%;
-    margin-top: 6%;
+    margin-top: 2%;
     font-size: 30px;
 }
 .finace-inconu{
-    margin-top: 6%; 
+    margin-top: 2%; 
     font-size: 30px;
 }
 .section1-menu{
@@ -137,17 +146,18 @@ button{
 }
 .secttion1-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    margin-top: 3%;
 }
 .webDesign-section1{
     display: flex;
     flex-direction: column;
-    background-color: rgb(124, 190, 200);
+    background-color: white;
     width: 80%;
     height: 90%;
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 10px 10px;
+    box-shadow: 10px 5px 10px 10px;
 }
 .h3-design-section{
     width: 10%;
@@ -160,7 +170,18 @@ button{
     text-align: center;
 }
 .imgs{
-    width: 60%;
+    width: 30%;
+    text-align: center;
+    height: 80px;
+}
+.img-grpc{
+    width: 30%;
+    text-align: center;
+    height: 80px;
+}
+.logo-d{
+    width: 30%;
+    height: 80px;
     text-align: center;
 }
 .section1-menu2{
@@ -317,18 +338,30 @@ button{
     height: 20px;
     border-radius: 10px;
 }
-.section1-menu3{
+.section1-menu3{ 
     height: 500px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .div1{
-    color: #157bd4;
+    color: black;
+}
+.section1-menu3-imgText{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 5%;
+}
+.question-frp{
+    width: 50%;
+    height: 100%;
+    box-shadow: 5px 5px 10px 10px;
 }
 .text{
     display: flex;
+    width: 50%;
+    height: 100%;
     flex-direction: column;
-    background-color: rgb(104, 104, 122);
     padding: 20px;
+    color: black;
 }
 .section1-menu3-imgText{
     display: flex;
@@ -341,7 +374,7 @@ button{
     width: 70%;
     height: 30px;
     border-radius: 20px;
-    background-color:rgb(129, 129, 170);
+    background-color:rgb(189, 189, 213);
 }
 .menu3-how{
     display: flex;
@@ -353,38 +386,503 @@ button{
 }
 .h2-fin1-1{
     color: black;
+    text-align: center;
+    font-size: 30px;
 }
 .fin1-1-grille{
-    display: flex;
-    justify-content: center;
-    color: white;
-    border: 1px solid black;
-    background-color: rgb(82, 114, 143);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2%;
 }
 .localisation{
-    width: 50%;
-    height: 300px;
-    background-color: #66b0b7;
+    height: 230px;
     padding: 10px;
-    border: 2px solid black;
+    margin-top: 2%;
 }
 
 .fin1-16head1{
-    background-color: #66b0b7;
-    width: 50%;
     height: 300px;
     padding: 10px;
-    border: 2px solid black;
 }
 .fin1-16head2{
-    background-color: #66b0b7;
     height: 300px;
-    width: 50%;
     padding: 10px;
-    border: 2px solid black;
+}
+.lig{
+    background-color: #9ba3aa;
+    width: 100%;
+    height: 2px;
 }
 .footer-fin{
     display: flex;
     color: black;
     justify-content: space-between;
+}
+.material-symbols-outlined{
+    box-shadow: 10px 10px 10px 5px;
+}
+.langue{
+    text-decoration: none;
+    background-color: #66b0b7;
+    border-radius: 10px;
+    text-align: center;
+    width: 7%;
+    height: 30px;
+}
+
+/* responsive */
+
+@media screen and ( max-width:650px){
+
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #66b0b7;
+        text-decoration: none;
+    }
+    .chek{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 15%;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        width: 60%;
+        height: 8%;
+    }
+    .sect{
+        align-items: center;
+        width: 15%;
+    }
+    .user{
+        background-color: white;
+        border-radius: 70px;
+    }
+    .discov{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #66b0b768;
+        height: 300px;
+    }
+    .h2-discover{
+        color: white;
+    }
+    .search{
+        width: 40%;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .webDesign-finance{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        background-color: #157bd4;
+        padding: 10px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .webDesign{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        font-size: 10px;
+        margin-top: -5%;
+        margin-left: -2%;
+        padding: 5px;
+    }
+    .web-dsn1{
+        text-align: center;
+    }
+    .h3-design{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(157, 187, 127);
+        border-radius: 20px;
+        width: 7%;
+        height: 20px;
+        text-align: center;
+        color: black;
+    }
+    .design-agenda{
+        display: flex;
+        justify-content: space-between;
+    }
+    .finance{
+        width: 100%;
+        height: 55%;
+        background-image: url(images/programation.jpg);
+        background-position: center;
+        font-weight: bold;
+        opacity: 0.5;
+        color: white;
+        padding: 5px;
+        margin-top: -5%;
+        margin-left: -2%;
+        border-radius: 20px;
+    }
+    .h3-finance{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: chartreuse;
+        border-radius: 20px;
+        width: 6%;
+        height: 12%;
+        text-align: center;
+        color: black;
+    }
+    .finance-agenda{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .web-dsn{
+        width: 40%;
+        height: 100px;
+    }
+    
+    button{
+        border-radius: 20px;
+        width: 30%;
+        height: 15%;
+        margin-top: -100%;
+        margin-left: 35%;
+    }
+     .finance-footer{
+        display: none;
+        justify-content: space-between;
+        margin-top: -15%;
+        font-size: 30px;
+    } 
+    .social-finance{
+        display: flex;
+        gap: 25%;
+        margin-top: 2%;
+        font-size: 30px;
+    }
+    .finace-inconu{
+        margin-top: 2%; 
+        font-size: 30px;
+    }
+    .section1-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .h2-section1{
+        text-align: center;
+    }
+    .p-section{
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+    }
+    .secttion1-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .webDesign-section1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 80%;
+        height: 90%;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 5px;
+        margin-top: 5%;
+    }
+    .h3-design-section{
+        width: 10%;
+        height: 25px;
+        border-radius: 30px;
+        text-align: center;
+        background-color: antiquewhite;
+    }
+    .web-dasign-image-section1{
+        text-align: center;
+    }
+    .imgs{
+        width: 30%;
+        text-align: center;
+        height: 80px;
+    }
+    .img-grpc{
+        width: 30%;
+        text-align: center;
+        height: 80px;
+    }
+    .logo-d{
+        width: 30%;
+        height: 80px;
+        text-align: center;
+    }
+    .section1-menu2{
+        background-image: url("images/digit.jpg");
+        color: white;
+        background-size: cover;
+        height: 650px;
+        padding: 10px;
+        margin-top: 7%;
+    }
+    .h2-section1-menu2{
+        text-align: center;
+    }
+    .rond{
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 10px;
+        background-color: blueviolet;
+        border-radius: 40px;
+        height: 25px;
+        width: 4%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .les-rond{
+        display: flex;
+        flex-direction: column;
+    }
+    .les-rond{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon-rond{
+        background-color: white;
+        border-radius: 30px;
+        height:30px;
+    }
+    .vertical{
+        position: relative;
+        width: 0.5%;
+        height: 110px;
+        margin-top: -3%;
+        background-color: #66b0b7;
+        margin-left: 4%;
+    }.vert-horz{
+        display: flex;
+        background-color: #157bd4;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        margin-top: -10%;
+    }
+    .horizontal{
+         font-size: 15px;
+        width: 800;
+        padding: 20px;
+        margin-top: -10%;
+    }
+    
+    
+    .rond2{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: blueviolet;
+        border-radius: 40px;
+        height: 25px;
+        width: 4%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .les-rond2{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 20%;
+        margin-top: -1%;
+    }
+    .icon-rond2{
+        background-color: white;
+        border-radius: 30px;
+        width: 30px;
+        height:30px;
+    }
+    .vertical2{
+        width: 100%;
+        height: 80px;
+        margin-top: -6.2%;
+        background-color: #66b0b7;
+        margin-left: 4%;
+    }.vert-horz2{
+        display: flex;
+        background-color: #157bd4;
+        justify-content: space-around;
+        width: 100%;
+        height: 180px;
+        margin-top: -30%;
+    }
+    .horizontal2{
+        font-size: 15px;
+       width: 800;
+       padding: 20px;
+    }
+    
+    
+    .rond{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: blueviolet;
+        border-radius: 40px;
+        height: 25px;
+        width: 4%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .les-rond3{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 20%;
+        margin-top: -1%;
+    }
+    .icon-rond3{
+        background-color: white;
+        border-radius: 30px;
+        width: 30px;
+        height:30px;
+    }
+    .vertical3{
+        width: 0.5%;
+        height: 80px;
+        margin-top: -7%;
+        background-color: #66b0b7;
+        margin-left: 4%;
+    }.vert-horz3{
+        display: flex;
+        background-color: #157bd4;
+        justify-content: space-around;
+        width: 100%;
+        height: 180px;
+        margin-top: -100%;
+    }
+    .horizontal3{
+        font-size: 15px;
+       width: 800;
+       padding: 20px;
+       margin-top: -4%;
+    }
+    .menu2-footer{
+        display: flex;
+        gap: 10%;
+        justify-content: center;
+    }
+    .youtube{
+        text-align: center;
+        color: white;
+        margin-top: 2%;
+        text-decoration: none;
+        background-color: #66b0b7;
+        width: 7%;
+        height: 20px;
+        border-radius: 10px;
+    }
+    .section1-menu3{ 
+        height: 500px;
+        margin-top: 5%;
+        margin-top: 20%;
+    }
+    .div1{
+        color: black;
+    }
+    .section1-menu3-imgText{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        margin-top: 5%;
+    }
+    .question-frp{
+        width: 50%;
+        height: 100%;
+        box-shadow: 5px 5px 10px 10px;
+    }
+    .text{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        padding: 20px;
+        color: black;
+    }
+    .section1-menu3-imgText{
+        display: flex;
+    }
+    .div-menu3-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30%;
+        width: 70%;
+        height: 30px;
+        border-radius: 20px;
+        background-color:rgb(189, 189, 213);
+    }
+    .menu3-how{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .fin-1{
+        margin-top: 10px;
+    }
+    .h2-fin1-1{
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
+    .fin1-1-grille{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 2%;
+    }
+    .localisation{
+        height: 230px;
+        padding: 10px;
+        margin-top: 2%;
+    }
+    
+    .fin1-16head1{
+        height: 300px;
+        padding: 10px;
+    }
+    .fin1-16head2{
+        height: 300px;
+        padding: 10px;
+    }
+    .lig{
+        background-color: #9ba3aa;
+        width: 100%;
+        height: 2px;
+    }
+    .footer-fin{
+        display: flex;
+        color: black;
+        justify-content: space-between;
+    }
+    .material-symbols-outlined{
+        box-shadow: 10px 10px 10px 5px;
+    }
+    .langue{
+        text-decoration: none;
+        background-color: #66b0b7;
+        border-radius: 10px;
+        text-align: center;
+        width: 7%;
+        height: 30px;
+    }
+    
 }
