@@ -455,13 +455,13 @@ button{
     .nav{
         display: flex;
         flex-wrap: wrap;
-        gap: 10%;
+        gap: 5%;
         width: 60%;
         height: 8%;
     }
     .sect{
         align-items: center;
-        width: 15%;
+        width: 35%;
     }
     .user{
         background-color: white;
