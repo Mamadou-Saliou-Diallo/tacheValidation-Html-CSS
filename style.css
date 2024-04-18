@@ -683,7 +683,7 @@ button{
         background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
-        height: 100%;
+        height: 200px;
         margin-top: -9%;
         
     }
@@ -728,7 +728,7 @@ button{
         justify-content: space-around;
         background-color: #66b0b7;
         width: 100%;
-        height: 180px;
+        height: 200px;
         margin-top: -25%;
     }
     .horizontal2{
@@ -770,7 +770,7 @@ button{
         background-color: #66b0b7;
         justify-content: space-around;
         width: 100%;
-        height: 180px;
+        height: 200px;
         margin-top: -10%;
     }
     .horizontal3{
@@ -784,6 +784,10 @@ button{
         gap: 10%;
         justify-content: center;
         margin-top: -14%;
+    }
+    .question{
+        color: black;
+        width: 80%;
     }
     .youtube{
         display: flex;
@@ -800,7 +804,7 @@ button{
     .section1-menu3{ 
         height: 500px;
         margin-top: 5%;
-        margin-top: 20%;
+        margin-top: 35%;
     }
     .div1{
         color: black;
