@@ -588,7 +588,7 @@ button{
     }
     .p-section{
         display: flex;
-        gap: 5%;
+        gap: 1%;
         justify-content: center;
     }
     .secttion1-grid{
