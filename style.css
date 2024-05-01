@@ -967,12 +967,10 @@ button{
         flex-direction: column;
     }
     .localisation{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 230px;
-        width: 50%;
+        width: 100%;
         margin-top: 2%;
+        margin-left: 6%;
     }
     
     .fin1-16head1{
