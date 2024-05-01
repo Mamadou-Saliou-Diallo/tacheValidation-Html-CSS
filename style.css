@@ -384,6 +384,7 @@ button{
 
 
 }
+
 .question-frp{
     width: 50%;
     height: 100%;
@@ -703,7 +704,7 @@ button{
         justify-content: space-around;
         justify-content: center;
         align-items: center;
-        gap: 5%;
+        gap: 5%; 
     }
     .bas > p{
         display: none;
@@ -801,7 +802,7 @@ button{
         margin-left: 6%;
     }
     .rond1{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-left: 5%;
@@ -811,7 +812,7 @@ button{
         height: 60%;
     } 
     .rond2{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         background-color: #08d5f4;
@@ -832,7 +833,7 @@ button{
         margin-left: 6%;
     }
     .rond1{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-left: 5%;
@@ -852,7 +853,7 @@ button{
         height: 20px; 
     }
     .flex-droite3{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         background-color: white;
@@ -863,7 +864,7 @@ button{
         margin-left: 6%;
     }
     .rond1{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         margin-left: 5%;
@@ -873,7 +874,7 @@ button{
         height: 80%;
     } 
     .rond2{
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         background-color: #08d5f4;
@@ -891,13 +892,13 @@ button{
          margin-top: -880px;
     }
     .amis1{
-        margin-top: 10%;
+        margin-top: -2%;
     }
     .amis2{
-        margin-top: 10%;
+        margin-top: -3%;
     }
     .amis3{
-        margin-top: 9%;
+        margin-top: 1%;
         height: 200px;
         
     }
@@ -915,8 +916,14 @@ button{
         display: flex;
         flex-direction: column;
     }
+    .image{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }
     .question-frp{
-        width: 100%;
+        width: 50%;
+        text-align: center;
         height: 150px;
         box-shadow: 5px 5px 10px 10px;
     }
@@ -960,6 +967,9 @@ button{
         flex-direction: column;
     }
     .localisation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 230px;
         width: 50%;
         margin-top: 2%;
