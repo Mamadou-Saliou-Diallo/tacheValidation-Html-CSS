@@ -584,6 +584,7 @@ button{
     }
     .h2-discover{
         color: white;
+        margin-top: 15%;
     }
     .search{
         width: 80%;
@@ -666,7 +667,7 @@ button{
         border-radius: 20px;
         width: 30%;
         height: 15%;
-        margin-top: -100%;
+        margin-top: -5%;
         margin-left: 35%;
     }
      .finance-footer{
