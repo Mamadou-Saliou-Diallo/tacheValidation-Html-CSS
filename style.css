@@ -107,7 +107,6 @@ ul{
 .webDesign-finance{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 2%;
     background-color: #157bd4;
     border-bottom-left-radius: 70px;
@@ -123,6 +122,12 @@ ul{
     border-radius: 20px;
     padding: 10px;
     margin-top: -5%;
+}
+
+.ligne{
+    background-color: black;
+    margin-top: -30%;
+    height: 5%;
 }
 .h3-design{
     background-color: rgb(157, 187, 127);
@@ -595,6 +600,8 @@ button{
     }
     .webDesign-finance{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         gap: 10%;
         background-color: #157bd4;
@@ -612,6 +619,11 @@ button{
         margin-top: -5%;
         margin-left: -2%;
         padding: 5px;
+    }
+    .ligne{
+        background-color: black;
+        margin-top: -30%;
+        height: 5%;
     }
     .web-dsn1{
         text-align: center;
