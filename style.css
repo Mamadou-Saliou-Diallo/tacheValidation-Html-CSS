@@ -548,7 +548,7 @@ button{
 @media screen and ( max-width:650px){
 
     body{
-        overflow-x: hidden;
+        overflow-x: hidden ;
     }
     header{
         display: flex; 
@@ -611,6 +611,8 @@ button{
     }
     .webDesign{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         background-color: white;
         width: 100%;
