@@ -107,6 +107,7 @@ ul{
 .webDesign-finance{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2%;
     background-color: #157bd4;
     border-bottom-left-radius: 70px;
@@ -695,7 +696,6 @@ button{
     .h2-section1{
         text-align: center;
         padding: 5%;
-        background-color: red;
     }
     .p-section{
         display: flex;
