@@ -195,6 +195,7 @@ button{
 }
 .h2-section1{
     text-align: center;
+    margin: 3%;
 }
 .p-section{
     display: flex;
@@ -219,8 +220,8 @@ button{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .h3-design-section{
-    width: 10%;
-    height: 25px;
+    width: 15%;
+    height: 40px;
     border-radius: 30px;
     text-align: center;
     background-color: antiquewhite;
@@ -690,8 +691,11 @@ button{
         display: flex;
         flex-direction: column;
     }
+    
     .h2-section1{
         text-align: center;
+        padding: 5%;
+        background-color: red;
     }
     .p-section{
         display: flex;
