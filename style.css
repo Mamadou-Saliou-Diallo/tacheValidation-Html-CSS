@@ -611,7 +611,7 @@ button{
         height: 500px;
         border-radius: 20px;
     }
-    .webDesign{
+    /* .webDesign{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -623,7 +623,7 @@ button{
         margin-top: -5%;
         margin-left: -2%;
         padding: 5px;
-    }
+    } */
     .ligne{
         background-color: black;
         margin-top: -30%;
@@ -1566,18 +1566,21 @@ button{
     }
 }
 
-@media screen and (min-width: 650px) and (max-width: 1258px) {
-    .div-main2{
+/* @media screen and (min-width: 650px) and (max-width: 1258px) {
+     .pos-rela {
         
+     }
+    .div-main2{
         margin-top: -10%;
         margin-left: -4%;
         height: 60%;
     }
-    .center{
+    .center, .comment, .center1{
          width: 90%;
+         padding-left: 10%;
     }
     .amis1{
-        text-align: center;
+        width: 90%;
     }
     .div-icon,.flex{
         display: none;
@@ -1585,14 +1588,21 @@ button{
     .section1-menu2{
         background-color: blue;
         height: 60%;
+        background-image: url(images/devs.webp);
+        background-size: auto;
+        
     }
     .section1-menu3{
         display: flex;
     }
+    .quest{
+        padding-left: 50%;
+        padding-top: -20%;
+    }
     .image{
         margin-top: 10%;
-        margin-left: -50%;
-        width: 100%;
+        margin-left: -30%;
+        width: 90%;
         height: 80%;
     }
     .question-frp{
@@ -1600,17 +1610,25 @@ button{
     }
     .fin1-1-grille{
         display: flex;
-        width: 95%;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
     }
     .localisation{
-        width: 30%;
+        width: 20%;
+        margin-left: -20%;
+    }
+    .localis{
+        width: 100%;
     }
     
     .fin1-16head1, .fin1-16head2{
-        width: 40%;
+        width: 30%;
     }
     .footer-fin{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 10%;
     }
-}
+    
+} */
